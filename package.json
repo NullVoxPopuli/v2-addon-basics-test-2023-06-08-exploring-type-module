@@ -11,7 +11,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "cp -r v2-addon node_modules/v2-addon; ember test"
+    "test": "ember test"
   },
   "devDependencies": {
     "v2-addon": "workspace:*",
