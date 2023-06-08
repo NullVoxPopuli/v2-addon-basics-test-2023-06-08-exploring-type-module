@@ -14,8 +14,8 @@
     "test": "cp -r v2-addon node_modules/v2-addon; ember test"
   },
   "devDependencies": {
-    "v2-addon": "0.0.1",
-    "intermediate": "0.0.0",
+    "v2-addon": "workspace:*",
+    "intermediate": "workspace:*",
     "@babel/core": "7.19.6",
     "@ember/optional-features": "2.0.0",
     "@ember/test-helpers": "2.9.3",

@@ -1,0 +1,6 @@
+packages:
+  - v2-addon
+  - intermediate
+  - inner
+  - third-party
+  - .

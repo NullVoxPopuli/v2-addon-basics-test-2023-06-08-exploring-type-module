@@ -1,0 +1,23 @@
+{
+  "name": "inner",
+  "version": "0.0.1",
+  "keywords": [
+    "ember-addon"
+  ],
+  "dependencies": {
+    "@embroider/addon-shim": "1.8.5"
+  },
+  "private": true,
+  "ember-addon": {
+    "type": "addon",
+    "version": 2,
+    "app-js": {
+      "./components/inner.js": "./app/components/inner.js"
+    },
+    "main": "addon-main.cjs"
+  },
+  "exports": {
+    "./*": "./*"
+  },
+  "devDependencies": {}
+}
