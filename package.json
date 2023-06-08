@@ -11,17 +11,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build",
-    "build:production": "ember build -prod",
-    "lint": "npm-run-all --aggregate-output --continue-on-error --parallel \"lint:!(fix)\"",
-    "lint:fix": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*:fix",
-    "lint:hbs": "ember-template-lint .",
-    "lint:hbs:fix": "ember-template-lint . --fix",
-    "lint:js": "eslint . --cache",
-    "lint:js:fix": "eslint . --fix",
-    "start": "ember serve",
-    "test": "ember test",
-    "test:ember": "ember test"
+    "test": "cp -r v2-addon node_modules/v2-addon; ember test"
   },
   "devDependencies": {
     "v2-addon": "0.0.1",
